@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#75ed9c"
+    tools:context=".view.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8FD6EA">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/banner_login" />
+
+    </LinearLayout>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="#0e0e0e"
+        app:mtf_image="@drawable/ic_email_black_24dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <EditText
+            android:id="@+id/edt_email_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="#FF4E4D4D"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="#0e0e0e"
+        app:mtf_image="@drawable/ic_lock_black_24dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <EditText
+            android:id="@+id/edt_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="#4e4d4d"
+            android:textSize="20sp"
+            android:inputType="textPassword"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <com.andexert.library.RippleView
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        rv_centered="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Register"
+            android:background="#f9b250"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+    </com.andexert.library.RippleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Punya Akun ?"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#000" />
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="?android:actionBarSize"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            rv_centered="true">
+
+            <TextView
+                android:id="@+id/btn_daftar_sekarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Login Disini!"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textColor="#1735e1"
+                android:onClick="PindahLogin"
+                />
+
+        </com.andexert.library.RippleView>
+    </LinearLayout>
+
+</LinearLayout>

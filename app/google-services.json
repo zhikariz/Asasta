@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "836047565866",
+    "firebase_url": "https://asasta-f7abc.firebaseio.com",
+    "project_id": "asasta-f7abc",
+    "storage_bucket": "asasta-f7abc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836047565866:android:9cf32187b481e1a2",
+        "android_client_info": {
+          "package_name": "com.deaenita.asasta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836047565866-j85ig76qdlp85tvqfu55ebpfq3okstsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deaenita.asasta",
+            "certificate_hash": "71168c9d5b8a1484037bcc6ed7681c4ede09e6ad"
+          }
+        },
+        {
+          "client_id": "836047565866-8o5q3f6ddrfovloifa0j4mcv57c0qtvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM6qPzt5R28r4tj-aKQjm_q-rOwgSFw_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836047565866-8o5q3f6ddrfovloifa0j4mcv57c0qtvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
